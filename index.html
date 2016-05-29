@@ -237,7 +237,7 @@ $(".player").on("click", function() {
 		$(this).appendTo("div#characters");
 		new Audio(baseUrl + saberOn).play();
 		$("div#select").children("div").appendTo("div#enemies");
-		$("div#select").slideUp(2700);
+		$("div#select").slideUp(2900);
 		new Audio(baseUrl + slideSound).play();
 		$("div#enemies").children("div").css("background-color", "#300000");
 		$("div#enemies").children("div").hover(function() {
@@ -245,7 +245,7 @@ $(".player").on("click", function() {
 		});
 		var id = $(this).attr('id');
 		$(this).off("click");
-		player = allCharacters[id]
+		player = allCharacters[id];
 	}
 
 	if (playerSelected == true && enemySelected == false) {
@@ -257,7 +257,7 @@ $(".player").on("click", function() {
 	}
 
 	if ($("div#enemies img").length === 0) {
-		$("div#enemies").slideUp(2700);
+		$("div#enemies").slideUp(2900);
 		new Audio(baseUrl + slideSound).play();
 	}
 
