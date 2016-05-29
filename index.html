@@ -259,6 +259,7 @@ $(".player").on("click", function() {
 	if ($("div#enemies img").length === 0) {
 		$("div#enemies").slideUp(2900);
 		new Audio(baseUrl + slideSound).play();
+		$(this).off("click");
 	}
 
 	playerSelected = true; 	
