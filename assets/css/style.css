@@ -1,0 +1,153 @@
+body {
+	background-image:url("../images/background.jpg");
+	height: 1200px;
+	font-family: Tahoma;
+	color: #FFFFFF;
+}
+
+div#logo {
+	height: 30px;
+}
+
+img#logo {
+	float:right;
+}
+
+h1 {
+	color: white;
+}
+
+h2 {
+	color: white;
+}
+
+h3 {
+	color: #FFFFFF;
+}
+
+div#select {
+	height: 190px;
+}
+
+div#obiwan {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+}
+
+img#obiwan {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#anakin {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+}
+
+img#anakin {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#starkiller {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+}
+
+img#starkiller {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#maul {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float:left;
+	margin: 0 8px;
+}
+
+img#maul {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#characters {
+	height: 220px;
+	margin-left: 5px;
+}
+
+div#fightbutton {
+	clear: both;
+}
+
+button#attack {
+	margin-top: 5px;
+	margin-left: 10px;
+}
+
+div#enemies {
+	height: 220px;
+	margin-left: 5px;
+}
+
+div#defender {
+	height: 250px;
+	margin-left: 5px;
+}
+
+div#gametextA {
+	clear:both;
+	color: white;
+	margin-left: 5px;
+}
+
+div#gametextB {
+	color: white;
+	margin-left: 5px;
+}
+
+div#restart {
+	display: none;
+	margin-left: 10px;
+}
+
+div#nameA, #nameB, #nameC, #nameD {
+	text-align: center;
+	margin-top: 5px;
+}
+
+section#hpA, #hpB, #hpC, #hpD {
+	text-align: center;
+	margin-top: 5px;
+}
+
