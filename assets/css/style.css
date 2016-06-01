@@ -13,6 +13,10 @@ img#logo {
 	float:right;
 }
 
+i {
+	color: green;
+}
+
 h1 {
 	color: white;
 }
@@ -91,11 +95,68 @@ div#maul {
 	color: white;
 	height: 195px;
 	width: 170px;
-	float:left;
+	float: left;
 	margin: 0 8px;
 }
 
 img#maul {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#sidious {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+	display: none;
+}
+
+img#sidious {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#vader {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+	display: none;
+}
+
+img#vader {
+	display: block;
+	margin: 0 auto;
+	padding-top: 8px;
+}
+
+div#yoda {
+	background-color: black;
+	border-style: groove;
+	border-color: gray;
+	border-width: thick;
+	color: white;
+	height: 195px;
+	width: 170px;
+	float: left;
+	margin: 0 8px;
+	display: none;
+}
+
+img#yoda {
 	display: block;
 	margin: 0 auto;
 	padding-top: 8px;
@@ -122,17 +183,32 @@ div#enemies {
 
 div#defender {
 	height: 250px;
+	width: 300px;
 	margin-left: 5px;
 }
 
 div#gametextA {
-	clear:both;
+	clear: both;
 	color: white;
+	width: 550px;
 	margin-left: 5px;
 }
 
 div#gametextB {
 	color: white;
+	width: 550px;
+	margin-left: 5px;
+}
+
+div#commentary {
+	color: white;
+	width: 550px;
+	margin-left: 5px;
+}
+
+div#commentary {
+	color: white;
+	width: 550px;
 	margin-left: 5px;
 }
 
@@ -141,13 +217,14 @@ div#restart {
 	margin-left: 10px;
 }
 
-div#nameA, #nameB, #nameC, #nameD {
+div#nameA, #nameB, #nameC, #nameD, #nameE, #nameF, #nameG {
 	text-align: center;
 	margin-top: 5px;
 }
 
-section#hpA, #hpB, #hpC, #hpD {
+section#hpA, #hpB, #hpC, #hpD, #hpE, #hpF, #hpG {
 	text-align: center;
 	margin-top: 5px;
 }
+
 
